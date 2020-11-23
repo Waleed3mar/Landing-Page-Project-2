@@ -45,3 +45,13 @@ for (let i = 0; i < sec.length; i++) {
     }
   );
 }
+
+const botn = document.getElementById('btn');
+botn.addEventListener('click',function(){
+if(ullist.className=='hide-Nav'){
+    ullist.classList.remove('hide-Nav')
+}
+else{
+    ullist.classList.add('hide-Nav')
+}
+});
